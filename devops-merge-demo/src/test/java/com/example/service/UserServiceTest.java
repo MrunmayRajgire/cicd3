@@ -8,7 +8,10 @@ public class UserServiceTest {
     @Test
     public void testGetUserName() {
         UserService svc = new UserService();
-        assertEquals("Alice", svc.getUserName());
+        feature/rename-method
+        assertEquals("Bob", svc.fetchUserName());
+
+main
     }
 
     // If method was renamed:
