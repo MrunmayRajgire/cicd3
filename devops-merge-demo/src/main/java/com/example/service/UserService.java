@@ -2,8 +2,8 @@ package com.example.service;
 
 public class UserService {
 
-    public String getUserName() {
-        return "Bob";
+    public String fetchUserName() {
+        return "Alice";
     }
 
     // In feature branch:
