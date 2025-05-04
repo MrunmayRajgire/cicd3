@@ -3,7 +3,7 @@ package com.example.service;
 public class UserService {
 
     public String getUserName() {
-        return "Alice";
+        return "Bob";
     }
 
     // In feature branch:
