@@ -8,7 +8,7 @@ public class UserServiceTest {
     @Test
     public void testGetUserName() {
         UserService svc = new UserService();
-        assertEquals("Bob", svc.getUserName());
+        assertEquals("Bob", svc.fetchUserName());
     }
 
     // If method was renamed:
