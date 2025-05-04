@@ -2,7 +2,7 @@ package com.example.service;
 
 public class UserService {
 
-    public String fetchUserName() {
+    public String getUserName() {
         return "Alice";
     }
 
